@@ -1,0 +1,30 @@
+.sheets {
+  margin: 20px 10px 10px;
+
+  .result-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+
+    .table-column {
+      padding: 10px;
+      border: solid 1px #dadbe5;
+    }
+
+    .table-row {
+      text-align: left;
+    }
+
+    @media screen and (min-width: 600px) {
+      margin-top: 70px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    margin: 30px 20px 10px;
+  }
+
+  @media screen and (min-width: 992px) {
+    margin: 40px 30px 10px;
+  }
+}

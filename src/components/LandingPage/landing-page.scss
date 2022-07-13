@@ -1,0 +1,11 @@
+.landing-page {
+  margin: 40px 10px 10px;
+
+  @media screen and (min-width: 768px) {
+    margin: 70px 20px 10px;
+  }
+
+  @media screen and (min-width: 992px) {
+    margin: 150px 50px;
+  }
+}

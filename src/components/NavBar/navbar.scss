@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  .navbar-list {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+
+    .navbar-item:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    .navbar-link {
+      color: azure;
+      text-decoration: none;
+      font-size: 14px;
+
+      @media screen and (min-width: 768px) {
+        font-size: 20px;
+      }
+    }
+
+    .active-link {
+      color: rgb(207, 212, 212);
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    justify-content: flex-start;
+  }
+}
